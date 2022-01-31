@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>My first html page</title>
+    <script type="text/javascript" src="MyScript.js"></script>
+</head>
+<body>
+<h1 id="h1" name="header1">Welcome, stranger!</h1>
+<style>
+    h1 {
+    font-family:Goudy Stout;
+    color: #0526ff;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 35px;
+     }
+
+</style>
+<br>
+<p id="p" name="paragraph" align="center" style="color:#f07929; font-size:2em; font-family:Castellar;">My name is Andrew</p>
+<br>
+<h2 id="h2" name="header2">Please, see table with my travel plans</h2>
+<br>
+<div align="center">
+    <table id="t1" name="table1" border="4">
+        <th id="coutry" name="country">Country</th>
+        <th id="city" name="city">City</th>
+        <tr>
+            <td id="ger" name="germany">Germany</td>
+            <td id="c1" name="berlin">Berlin</td>
+        </tr>
+        <tr>
+            <td id="itl" name="italy">Italy</td>
+            <td id="c2" name="rome">Rome</td>
+        </tr>
+        <tr>
+            <td id="usa" name="usa">USA</td>
+            <td id="c3" name="washington">Washington</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <label id="l1" name="label1">My favorite bands:</label>
+    <select name="bands" id="bands">
+        <option id="band1" name="cofb">Children of Bodom</option>
+        <option id="band2" name="bg">Blind Guardian</option>
+        <option id="band3" name="s">Scorpions</option>
+        <option id="band4" name="bs">Black Sabbath</option>
+    </select>
+    <br>
+    <br>
+    <label id="l2" name="label2">Right handed</label>
+    <form>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+    </form>
+    <br>
+    <label id="l3" name="label3">Left handed</label>
+    <form>
+        <input type="checkbox" id="checkbox2" name="checkbox2">
+    </form>
+    <br>
+    <label id="l4" name="label4" style="color: #d801ff">Click on the link to go to the page</label>
+    <a href="https://www.onliner.by/" id="hyper" name="hyperlink">Onliner</a>
+    <br>
+    <br>
+    <br>
+    <input id="alert" name="alert" type="button"  onclick="showMessage()" value="Click me" >
+    <br>
+    <img id="pic" name="picture" src="bob.png" width="300" height="255" alt="oops, you found it">
+    <br>
+</div>
+</body>
+</html>
